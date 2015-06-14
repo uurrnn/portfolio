@@ -19,6 +19,7 @@ ingredients/topshelf/_grid_variables.scss - grid settings override
 // Import Ingredients - Our main stylesheets + repeated styles used for sections
 @import "ingredients/ambiance";
 @import "ingredients/structure";
+@import "ingredients/sidebar";
 //@import "ingredients/header";
 
 

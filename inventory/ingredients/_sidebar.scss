@@ -1,0 +1,13 @@
+header.sidebar {
+	position: fixed;
+	top: 30px;
+	width: 200px;
+	h1 {
+		text-align: center;
+		a {
+			img {
+				display: block;
+			}
+		}
+	}
+}
