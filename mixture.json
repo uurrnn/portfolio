@@ -1,65 +1,75 @@
 {
-  "autoPrefixer": {
-    "active": true,
-    "browsers": [
-      "last 2 versions",
-      "> 1%",
-      "ie 9"
-    ]
-  },
-  "convertHtml": {
-    "extension": ".html",
-    "relativePaths": true
-  },
-  "customRuby": false,
-  "customRubyPath": null,
-  "customTodos": null,
-  "debug": true,
-  "domain": null,
-  "followLeader": true,
-  "ignoreDir": [
-    "ignore",
-    "inventory/recipes/bourbon",
-    "inventory/recipes/neat",
-    "inventory/recipes/bitters",
-    "inventory/recipes/garnish",
-    "inventory/recipes/chasers",
-    "inventory/recipes/normalize-scss",
-    "inventory/recipes/jquery",
-    "inventory/recipes/modernizr",
-    "inventory/recipes/fontawesome/css",
-    "inventory/recipes/fontawesome/scss",
-    "inventory/recipes/fontawesome/less"
-  ],
-  "less": null,
-  "lintScripts": false,
-  "modelSource": null,
-  "optimiseImages": true,
-  "optimiseSVG": true,
-  "password": null,
-  "preprocessorLocations": [
-    "inventory",
-    "assets"
-  ],
-  "preprocessorScriptOutput": "assets/scripts",
-  "preprocessorStyleOutput": "assets/styles",
-  "projectDescription": "Bourbon, Neat, Bitters & extras, chilled with Normalize, jQuery & Modernizr.",
-  "projectName": "TopShelf for Bourbon.io",
-  "publishedId": "",
-  "remoteDebugPort": 0,
-  "routes": null,
-  "sass": {
-    "outputStyle": "nested",
-    "useLibSass": false
-  },
-  "serverHostname": null,
-  "serverPort": null,
-  "simpleModeFileTypes": null,
-  "simpleModePartnerServer": null,
-  "sitemap": false,
-  "templateDefaultLayout": "layout",
-  "templateDefaultPage": "index",
-  "templateDirectory": "menu",
-  "type": "mixture",
-  "useCompass": false
+    "debug": true,
+    "lintScripts": false,
+    "preprocessorLocations": [
+        "inventory",
+        "assets"
+    ],
+    "preprocessorScriptOutput": "assets/scripts",
+    "preprocessorStyleOutput": "assets/styles",
+    "projectName": "TopShelf for Bourbon.io",
+    "projectDescription": "Bourbon, Neat, Bitters & extras, chilled with Normalize, jQuery & Modernizr.",
+    "publishedId": "",
+    "serverHostname": null,
+    "serverPort": null,
+    "templateDirectory": "menu",
+    "templateDefaultLayout": "layout",
+    "templateDefaultPage": "index",
+    "type": "mixture",
+    "useCompass": false,
+    "simpleModePartnerServer": null,
+    "simpleModeFileTypes": null,
+    "modelSource": null,
+    "domain": null,
+    "convertHtml": {
+        "path": null,
+        "extension": ".html",
+        "ignoreUrls": null,
+        "relativePaths": true,
+        "default": null
+    },
+    "followLeader": true,
+    "routes": null,
+    "customRuby": false,
+    "customRubyPath": null,
+    "remoteDebugPort": 0,
+    "optimiseImages": true,
+    "password": null,
+    "ignoreDir": [
+        "ignore",
+        "inventory/recipes/bourbon",
+        "inventory/recipes/neat",
+        "inventory/recipes/bitters",
+        "inventory/recipes/garnish",
+        "inventory/recipes/chasers",
+        "inventory/recipes/normalize-scss",
+        "inventory/recipes/jquery",
+        "inventory/recipes/modernizr",
+        "inventory/recipes/fontawesome/css",
+        "inventory/recipes/fontawesome/scss",
+        "inventory/recipes/fontawesome/less"
+    ],
+    "customTodos": null,
+    "autoPrefixer": {
+        "active": true,
+        "browsers": [
+            "last 2 versions",
+            "> 1%",
+            "ie 9"
+        ],
+        "sourceMap": false
+    },
+    "sass": {
+        "outputStyle": "nested",
+        "sourceMap": false,
+        "cache": false,
+        "lineNumbers": false,
+        "globbing": false,
+        "useLibSass": false,
+        "debugInfo": false
+    },
+    "sitemap": false,
+    "less": null,
+    "optimiseSVG": true,
+    "reload": 0
 }
