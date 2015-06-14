@@ -3,5 +3,5 @@
 // =============================================================================
 
 //Combine all our scripts into one file
+//@import "recipes/modernizr/modernizr.js";
 @import "recipes/jquery/dist/jquery.js";
-@import "recipes/modernizr/modernizr.js";
